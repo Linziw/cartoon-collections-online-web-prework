@@ -10,7 +10,7 @@ planeteer_calls = ["earth", "wind", "fire"]
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
-    call.upcase
+    call.capitalize
  
 end
 end
